@@ -41,7 +41,6 @@ Device* findDevice(int id) {
     Device* current = hashTable[index];
     while (current != NULL) {
         if (current->id == id) {
-            // Hi?n th? thông tin thi?t b? trong khung
             printf("\nThiet bi tim thay:\n");
             printf("=======================================================================================\n");
             printf("| %-10s | %-20s | %-20s | %-15s | %-10s |\n", 
